@@ -45,7 +45,7 @@ class Go_fish:
         deck_of_cards = DeckOfCards()
         deck_of_cards.make_deck()
         deck_of_cards.shuffle_deck()
-        hands = deck_of_cards.deal(2, 26)
+        hands = deck_of_cards.deal(2, 6)
         self.hand1 = hands[0]
         self.hand2 = hands[1]
         self.deck = deck_of_cards.deck
